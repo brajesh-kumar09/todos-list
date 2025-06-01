@@ -25,7 +25,7 @@ nav {
     color: #e3f6fc;
   }
   #logo {
-    margin-inline: 1.5%;
+    margin-block: 2% 1.5%;
     width: 12.5%;
     img {
       width: 100%;
@@ -129,10 +129,35 @@ h2 {
   border-radius: 5px;
   max-height: 40vh;
   overflow-y: auto;
-  #notodoshow{
+  #notodoshow {
     color: gray;
     font-size: small;
     padding-inline-start: 1%;
     font-style: italic;
+  }
+}
+@media screen and (max-width: 425px) {
+  .bodi {
+    width: 90%;
+  }
+  .inp {
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar {
+    font-size: 0.75rem;
+    width: 90%;
+    #logo {
+      width: 25%;
+    }
+  }
+  .btns{
+    top:50%
+  }
+  .redbtns{
+    top: 25%;
+  }
+  .todolistItem{
+    max-height: 55vh;
   }
 }

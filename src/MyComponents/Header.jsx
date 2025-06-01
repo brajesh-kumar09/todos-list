@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <nav>
       <div className="navbar">
-        <Link id='logo' to="/"><img src={logo} alt="To Dos" /></Link>
+        <Link id='logo' to="/todos-list"><img src={logo} alt="To Dos" /></Link>
         <div className="nav-links">
           <Link to="/about">About</Link>
           <Link to="/">Sign Up</Link>

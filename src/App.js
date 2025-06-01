@@ -45,7 +45,7 @@ function App() {
         <Header />
         <Routes>
           <Route
-            path="/"
+            path="/todos-list"
             element={
               <div className='bodi'>
                 <p>Welcome to My App</p> <hr />
